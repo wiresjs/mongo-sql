@@ -1,7 +1,7 @@
 {
-  "name": "mongo-sql",
-  "version": "2.6.0",
-  "description": "A mongo-like interface for sql generation, postgres-style",
+  "name": "mongo-mysql",
+  "version": "0.0.1",
+  "description": "A mongo-like interface for sql generation, mysql-style",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,13 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/goodybag/mongo-sql.git"
+    "url": "git://github.com/wiresjs/mongo-sql.git"
   },
   "keywords": [
-    "postgres",
-    "postgresql",
     "node-pg",
     "mongo",
+    "mysql",
     "sql"
   ],
   "author": "John Fawcett",
