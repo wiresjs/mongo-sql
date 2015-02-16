@@ -7,6 +7,12 @@
 var conditionals = require('../lib/conditional-helpers');
 var queryBuilder = require('../lib/query-builder');
 
+
+conditionals.add('$contains', function(column, value, values, collection){
+  return "INSTR("+column+", "+value+") > 0";
+});
+
+
 /**
  * Querying where column is equal to a value
  * @param column {String}  - Column name either table.column or column

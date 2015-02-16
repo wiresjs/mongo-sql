@@ -34,6 +34,7 @@ require('./helpers/query/definition');
 require('./helpers/query/cascade');
 require('./helpers/query/with');
 require('./helpers/query/only');
+
 require('./helpers/query/action');
 require('./helpers/query/column-constraint');
 require('./helpers/query/alias');
