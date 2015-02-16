@@ -2,9 +2,9 @@
 
 Put value and _semantic meaning_ back into your queries by writing your SQL as JSON:
 
-[![NPM](https://nodei.co/npm/mongo-sql.png)](https://nodei.co/npm/mongo-sql/)
+[![NPM](https://nodei.co/npm/mongo-mysql.png)](https://nodei.co/npm/mongo-mysql/)
 
-[![Gitter chat](https://badges.gitter.im/goodybag/mongo-sql.png)](https://gitter.im/goodybag/mongo-sql)
+[![Gitter chat](https://badges.gitter.im/wires/mongo-mysql.png)](https://gitter.im/wires/mongo-mysql)
 
 ```javascript
 var builder = require('mongo-sql');
